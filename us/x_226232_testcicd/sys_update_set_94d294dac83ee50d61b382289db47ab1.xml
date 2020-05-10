@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-05-10 11:20:54">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="TestCICD">d13b9b7f1be850104e06fc86cc4bcb09</application>
+<application_name>TestCICD</application_name>
+<application_scope>x_226232_testcicd</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by CICD Process
+its a test application for cicd</description>
+<inserted/>
+<name>TestCICD - 1.0.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>94d294dac83ee50d61b382289db47ab1</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-10 11:20:54</sys_created_on>
+<sys_id>bd5c9fbf1be850104e06fc86cc4bcb6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-10 11:20:54</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="TestCICD">d13b9b7f1be850104e06fc86cc4bcb09</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_b46b93bf1be850104e06fc86cc4bcb23</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_226232_testcicd.TestScript&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;TestScript&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Class Description
+ * 
+ * @class 
+ * @author System Administrator [admin]
+ * @memberof x_226232_testcicd.module:sys_script_include
+ */
+var TestScript = Class.create();
+TestScript.prototype = /** @lends x_226232_testcicd.module:sys_script_include.TestScript.prototype */ {
+    /**
+     * Description
+     * 
+     * @returns {undefined}
+     */
+    initialize: function() {
+    },
+
+    type: 'TestScript'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-10 11:17:14&lt;/sys_created_on&gt;&lt;sys_id&gt;b46b93bf1be850104e06fc86cc4bcb23&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;TestScript&lt;/sys_name&gt;&lt;sys_package display_value="TestCICD" source="x_226232_testcicd"&gt;d13b9b7f1be850104e06fc86cc4bcb09&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="TestCICD"&gt;d13b9b7f1be850104e06fc86cc4bcb09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b46b93bf1be850104e06fc86cc4bcb23&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-10 11:17:25&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>402932861</payload_hash>
+<remote_update_set display_value="TestCICD - 1.0.0">bd5c9fbf1be850104e06fc86cc4bcb6b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-10 11:20:54</sys_created_on>
+<sys_id>715c9fbf1be850104e06fc86cc4bcb6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>171fe50df280000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-10 11:20:54</sys_updated_on>
+<table/>
+<target_name>TestScript</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>d34c9fbf15e8501030e4bd0a867df22c</update_guid>
+<update_guid_history>d34c9fbf15e8501030e4bd0a867df22c:402932861,ee8b13bf8ae85010eeae52edd8151c60:402932861,c88b9f7fe3e85010f7bc95618ffa991e:-307879402</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="TestCICD">d13b9b7f1be850104e06fc86cc4bcb09</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_e4dbd7bf1be850104e06fc86cc4bcb81</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>AutoTestCICD</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-10 11:19:12</sys_created_on><sys_id>e4dbd7bf1be850104e06fc86cc4bcb81</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AutoTestCICD</sys_name><sys_package display_value="TestCICD" source="x_226232_testcicd">d13b9b7f1be850104e06fc86cc4bcb09</sys_package><sys_policy/><sys_scope display_value="TestCICD">d13b9b7f1be850104e06fc86cc4bcb09</sys_scope><sys_update_name>sys_atf_test_e4dbd7bf1be850104e06fc86cc4bcb81</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-10 11:19:12</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=e4dbd7bf1be850104e06fc86cc4bcb81"/></record_update>]]></payload>
+<payload_hash>131115280</payload_hash>
+<remote_update_set display_value="TestCICD - 1.0.0">bd5c9fbf1be850104e06fc86cc4bcb6b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-10 11:20:54</sys_created_on>
+<sys_id>bd5c9fbf1be850104e06fc86cc4bcb6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>171fe50df420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-10 11:20:54</sys_updated_on>
+<table/>
+<target_name>AutoTestCICD</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>df4c9fbfe0e85010aadfafc8e7d0f42d</update_guid>
+<update_guid_history>df4c9fbfe0e85010aadfafc8e7d0f42d:131115280,30fb9f7f8be8501068786fc7bea80182:131115280</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="TestCICD">d13b9b7f1be850104e06fc86cc4bcb09</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_d13b9b7f1be850104e06fc86cc4bcb09</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>none</enforce_license><guided_setup_guid/><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category>none</license_category><license_model>none</license_model><logo/><menu/><name>TestCICD</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_226232_testcicd</scope><scoped_administration>false</scoped_administration><short_description>its a test application for cicd</short_description><source>x_226232_testcicd</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-10 11:15:57</sys_created_on><sys_id>d13b9b7f1be850104e06fc86cc4bcb09</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-10 11:15:57</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>363527878</payload_hash>
+<remote_update_set display_value="TestCICD - 1.0.0">bd5c9fbf1be850104e06fc86cc4bcb6b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-10 11:20:54</sys_created_on>
+<sys_id>f15c9fbf1be850104e06fc86cc4bcb6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>171fe50decf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-10 11:20:54</sys_updated_on>
+<table/>
+<target_name>TestCICD</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>174c9fbf66e850106b6d4f706f536428</update_guid>
+<update_guid_history>174c9fbf66e850106b6d4f706f536428:363527878,993bdf7f9ee85010dc62bbf2d92483ed:-474830922</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="TestCICD">d13b9b7f1be850104e06fc86cc4bcb09</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_340c9bbf1be850104e06fc86cc4bcb02</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Run Server Side Validation Script</description><display_name>Run Server Side Script</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-10 11:19:54</sys_created_on><sys_id>340c9bbf1be850104e06fc86cc4bcb02</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Run Server Side Script</sys_name><sys_package display_value="TestCICD" source="x_226232_testcicd">d13b9b7f1be850104e06fc86cc4bcb09</sys_package><sys_policy/><sys_scope display_value="TestCICD">d13b9b7f1be850104e06fc86cc4bcb09</sys_scope><sys_update_name>sys_atf_step_340c9bbf1be850104e06fc86cc4bcb02</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-10 11:19:54</sys_updated_on><table/><test display_value="AutoTestCICD">e4dbd7bf1be850104e06fc86cc4bcb81</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=340c9bbf1be850104e06fc86cc4bcb02"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>340c9bbf1be850104e06fc86cc4bcb02</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-10 11:19:54</sys_created_on><sys_id>871cd3bf1be850104e06fc86cc4bcbfd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-10 11:19:54</sys_updated_on><value>// You can use this step to execute a variety of server-side javascript tests including&#13;
+// jasmine tests and custom assertions&#13;
+//&#13;
+//&#13;
+// Pass or fail a step: Override the step outcome to pass or fail. This is ignored &#13;
+//                      by jasmine tests&#13;
+//&#13;
+//  - Return true from the main function body to pass the step&#13;
+//  - Return false from the main function body to fail the step&#13;
+//&#13;
+//&#13;
+// outputs:       Pre-defined Step config Output variables to set on this step during &#13;
+//                execution that are available to later steps&#13;
+//&#13;
+// steps(SYS_ID): A function to retrieve Output variable data from a step that executed&#13;
+//                earlier in the test. The desired step's sys_id is required&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      // Test step 1 - add data&#13;
+//      var gr = new GlideRecord('sc_task');&#13;
+//      // this sample step's Step config has Output variables named table and record_id&#13;
+//      outputs.table = 'sc_task';&#13;
+//      outputs.record_id = gr.insert();&#13;
+//&#13;
+//      // Test step 2 - access added data and validate&#13;
+//      // check that the record exists (or that business logic changed it)&#13;
+//      var gr = new GlideRecord("sc_task");&#13;
+//      gr.get(steps(PREVIOUS_STEP_SYS_ID).record_id);&#13;
+//      assertEqual({name: "task gr exists", shouldbe: true, value: gr.isValidRecord()});&#13;
+//&#13;
+//&#13;
+// stepResult.setOutputMessage: Log a message to step results after step executes.&#13;
+//                              Can only be called once or will overwrite previous &#13;
+//                              message&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      var gr = new GlideRecord('sc_task');&#13;
+//      gr.setValue('short_description', 'verify task can be inserted');&#13;
+//      var grSysId = gr.insert();&#13;
+//      var justCreatedGR = new GlideRecord('sc_task');&#13;
+//      if (justCreatedGR.get(grSysId)) {&#13;
+//            stepResult.setOutputMessage("Successfully inserted task record");&#13;
+//            return true; // pass the step&#13;
+//      } else { &#13;
+//            stepResult.setOutputMessage("Failed to insert task record");&#13;
+//            return false; // fail the step&#13;
+//      }&#13;
+//&#13;
+//&#13;
+// Note: describe is only supported in Global scope.&#13;
+// Use 'describe' to create a suite of test scripts and 'it' to define test expectations&#13;
+//&#13;
+//  Example jasmine test:&#13;
+//&#13;
+//      describe('my suite of script tests', function() {&#13;
+//            it('should meet expectations', function() {&#13;
+//                  expect(true).not.toBe(false);&#13;
+//            });&#13;
+//      });&#13;
+//      // make sure to uncomment jasmine.getEnv().execute(); outside the function body&#13;
+//&#13;
+//&#13;
+// assertEqual: A function used to compare that assertion.shouldbe == assertion.value;&#13;
+//              in case of failure it throws an Error and logs that the assertion by&#13;
+//              name has failed&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      var testAssertion = {&#13;
+//            name: "my test assertion",&#13;
+//            shouldbe: "expected value"&#13;
+//            value: "actual value",&#13;
+//      };&#13;
+//      assertEqual(testAssertion); // throws Error, logs message to test step output&#13;
+//&#13;
+(function(outputs, steps, stepResult, assertEqual) {&#13;
+    // add test script here&#13;
+	return true;&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);&#13;
+// uncomment the next line to execute this script as a jasmine test&#13;
+//jasmine.getEnv().execute();&#13;
+</value><variable display_value="">989d9e235324220002c6435723dc3484</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>340c9bbf1be850104e06fc86cc4bcb02</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-10 11:19:54</sys_created_on><sys_id>cf1cd3bf1be850104e06fc86cc4bcbfc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-10 11:19:54</sys_updated_on><value>3.1</value><variable display_value="">42f2564b73031300440211d8faf6a777</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1144221835</payload_hash>
+<remote_update_set display_value="TestCICD - 1.0.0">bd5c9fbf1be850104e06fc86cc4bcb6b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-10 11:20:54</sys_created_on>
+<sys_id>f95c9fbf1be850104e06fc86cc4bcb6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>171fe50df0a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-10 11:20:54</sys_updated_on>
+<table/>
+<target_name>Run Server Side Script</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>9f4c9fbf47e850104f670b1d0904902a</update_guid>
+<update_guid_history>9f4c9fbf47e850104f670b1d0904902a:-1144221835,031cd3bf5ce85010b642d212ab96a8ff:-1144221835</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
