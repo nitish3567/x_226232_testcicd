@@ -1,0 +1,24 @@
+{
+  "access": "package_private",
+  "active": true,
+  "api_name": "x_226232_testcicd.TestScript",
+  "caller_access": null,
+  "client_callable": false,
+  "description": null,
+  "name": "TestScript",
+  "script": {
+    "____see": "sn/TestCICD/Script Include/active_true/x_226232_testcicd.TestScript.js"
+  },
+  "sys_class_name": "sys_script_include",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-05-10 11:17:14",
+  "sys_id": "b46b93bf1be850104e06fc86cc4bcb23",
+  "sys_mod_count": 1,
+  "sys_name": "TestScript",
+  "sys_package": "d13b9b7f1be850104e06fc86cc4bcb09",
+  "sys_policy": "read",
+  "sys_scope": "d13b9b7f1be850104e06fc86cc4bcb09",
+  "sys_update_name": "sys_script_include_b46b93bf1be850104e06fc86cc4bcb23",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-05-10 11:17:25"
+}
